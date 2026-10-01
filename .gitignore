@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+data/raw/
+data/interim/
+*.zip
+
+outputs/drug_reaction_merged.csv
+data/processed/*.csv
+!data/processed/drug_information_20.csv
+outputs/ror_signal_results_Q1_Q2_2025.csv
+outputs/ror_signal_results_with_CI_Q1_Q2_2025.csv
+
+*.tmp
+*.log
