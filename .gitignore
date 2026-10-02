@@ -1,16 +1,27 @@
+# Python
 venv/
 __pycache__/
+*.py[cod]
 .ipynb_checkpoints/
 
+# Environment / secrets
+.env
+.streamlit/secrets.toml
+
+# Large FAERS data
 data/raw/
 data/interim/
 *.zip
 
-outputs/drug_reaction_merged.csv
+# Large processed CSV files
 data/processed/*.csv
 !data/processed/drug_information_20.csv
+
+# Large generated output files
+outputs/drug_reaction_merged.csv
 outputs/ror_signal_results_Q1_Q2_2025.csv
 outputs/ror_signal_results_with_CI_Q1_Q2_2025.csv
 
+# Temporary and log files
 *.tmp
 *.log
